@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* *********************** */
+/* Nav-bar */
+/* *********************** */
+#nav1{
+    color:#fff;
+    font-size: 25px;
+}
+#nav2{
+    color:#fff;
+    font-size: 25px;
+}
+#nav22{
+    color:#fff;
+    font-size: 25px;
+}
+ #nav3{
+    color:#fff;
+    font-size: 25px;
+}
+#nav4{
+    color:#fff;
+    font-size: 25px; 
+  }
+.dropdown:hover{
+   border-radius:6px solid #f7f5f1bd;
+}
+ .dropdown-menu{
+   border: 2px solid black;
+  font-size: 25px;
+}
+  .dropdown:hover>.dropdown-menu{
+    display: block;
+  }
+  #nav1:hover{
+    border-bottom:3px solid #f7f5f1;
+  }
+  #nav2:hover{
+    border-bottom:3px solid #f7f5f1;
+  }
+  #nav3:hover{
+    border-bottom:3px solid #f7f5f1;
+  }
+  #nav22:hover{
+    border-bottom:3px solid #f7f5f1 ;
+  }
+
+  .column {
+    width: 550px;
+    padding: 10px;
+    height: 500px;
+    color:black;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.one{
+ position: relative;
+ top: 90px;
+ /* left: 40px; */
+font-size: 2.0rem;
+font-weight: 600;
+color:white;
+}
+#chin{
+    font-size: 72px;
+}
+
+/* ******************** */
+/* Video */
+/* ******************** */
+#myVideo{
+  padding-left: 20px;
+  padding-bottom: 80px;
+}
+
+/* ************************ */
+/* cards */
+/* ************************ */
+#icon{
+  font-size: 150px;
+}
+#Some{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: #000;
+}
+.card-title{
+  font-size: 25px;
+  font-weight: 800;
+  font-family:'Times New Roman', Times, serif;
+  color: #000;
+}
+#car{
+  background: rgb(223, 223, 223);
+}
+#ran{
+  font-size: 25px;
+  font-weight: 800;
+  font-family: 'Times New Roman', Times, serif;
+  color: #000 ;
+}
+#run{
+  color: rgb(148, 144, 138);
+  font-size: 80px;
+  align-items: flex-start;
+}
+
+/* *********************** */
+/* Carousel */
+/* *********************** */
+.carousel-item{
+    height: 500px;
+    background:#777;
+    color:white;
+    position:relative;
+    background:no-repeat scroll center scroll;
+    background-size: cover;
+} 
+
+
+/* ************************ */
+/* Blockquote */
+/* ************************ */
+blockquote{
+  display: block;
+  position: relative;
+  width: 80%;
+  margin: 5rem auto;
+  padding: .5rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  color:black;
+  font-weight: 500;
+}
+blockquote::before{
+    content: '\201c';
+    top:10px;
+    left:-40px;
+}
+blockquote::after{
+    content:'\201d';
+    bottom:-30px;
+}
+
+blockquote::before,
+blockquote::after{
+    font-size: 6rem;
+    position: absolute;
+}
+
+/* *********************** */
+/* Contact */
+/* ********************** */
+.contact
+{
+    position: relative;
+    /* min-height: 100vh; */
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: url(../img/doc.jpg); */
+    opacity: 0.8;
+    background-size: cover;
+}
+
+.contact .content
+{
+    max-width: 800px;
+    text-align: center;
+    
+}
+.contact .content h2
+{
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+.contact .content p
+{
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
+.jan
+ {
+    width: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactInfo
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container .contactInfo .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactInfo .box .icon
+{
+    min-width: 60px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.055);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 25px;
+}
+.container .contactInfo .box .text
+{
+    display: flex;
+    margin-left: 30px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    font-weight: 400;
+}
+.container .contactInfo .box .text h3
+{
+    font-weight: 500;
+    color: rgb(56, 7, 78);
+}
+.contactForm h2
+{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+.contactForm .inputBox
+{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 18px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid rgb(19, 17, 17);
+    outline: none;
+    resize: none;
+}
+.contactForm .inputBox span
+{
+   position: relative;;
+   font-size: 18px;
+   color: rgb(0, 0, 0);
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+{
+    color: rgb(255, 0, 0);
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactForm .inputBox input[type="submit"]
+{
+    width: 100px;
+    background: #00bcd4;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+body{
+  background-image: url(../img/body.png);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#xd, #figma{
+  margin-left: 220px;
+}
+
+/* ************************* */
+/* Get expert opinion button */
+/* ************************* */
+#b-image{
+  /* background-image: url('../img/doctor.jpg'); */
+  height: 250px;
+}
+
+#drop2{
+  position: relative;
+  /* display: flex; */
+  width: 30%;
+  top: 100px;
+  left: 450px;
+  /* margin-top: 10px; */
+}
+
+
+.doct{
+  width: 590px;
+  height:500px;
+}
+
+#text111{
+  /* background-color: rgb(23, 18, 51); */
+  color:black;
+  /* padding: 5px; */
+  margin-top: 10px;
+  font-size: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#helpmember1{
+  margin-top: 20px;
+  font-size: 40px;
+ display: flex;
+ justify-content: center;
+ color: azure;
+ font-family: sans-serif;
+}
+
+#hereTo{
+  width: 1300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+}
+
+
+/* ********************** */
+/* Learn More */
+/* ************************ */
+#akki{
+  font-size: 30px;
+  font-weight: 800;
+  color: beige;
+}
+/* **************************** */
+/* Feed back */
+/* **************************** */
+input[type=password], select, textarea {    
+  width: 100%;    
+  padding: 12px;    
+  border: 1px solid rgb(194, 160, 160);    
+  border-radius: 2px;    
+  resize: vertical;    
+}    
+input[type=text], select, textarea {    
+  width: 100%;    
+  padding: 12px;    
+  border: 1px solid rgb(194, 160, 160);    
+  border-radius: 2px;    
+  resize: vertical;    
+}    
+input[type=email], select, textarea {    
+  width: 100%;    
+  padding: 12px;    
+  border: 1px solid rgb(126, 96, 96);    
+  border-radius: 2px;    
+  resize: vertical;    
+}    
+    
+input[type=submit] {    
+  padding: 12px 20px;    
+  border: none;    
+  border-radius: 2px;    
+  cursor: pointer;    
+  float: right;    
+}    
+    
+input[type=submit]:hover {    
+  background-color: #6f839e;    
+}    
+    
+.container { 
+  font-size: 20px;   
+  font-weight: 800;
+  border-radius: 20px; 
+  padding: 20px;    
+}    
+    
+.col-25 {    
+  float: left;    
+  width: 23%;    
+  margin-top: 8px;    
+}    
+    
+.col-75 {    
+  float: left;    
+  width: 75%;    
+  margin-top: 6px;    
+}    
+#hh{
+  text-align:center ;
+}
+
+/* *********************** */
+/* Privacy and Policy */
+/* *********************** */
+
+.modal-footer{
+  display: flex;
+  justify-content:center;
+}

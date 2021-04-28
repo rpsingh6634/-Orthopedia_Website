@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="./css/style.css">
+
+
+  <title>Create your Profile</title>
+</head>
+
+<body>
+  <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-secondary ">
+    <div class="container-fluid">
+      <a class="navbar-brand" >
+        <h3>CK Health</h3>
+      </a>
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="index.html" id="nav1" class="nav-link active" aria-current="page" >Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="gallery.html" id="nav1" class="nav-link active" aria-current="page" >Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a id="nav2" class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a id="nav3" class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign In</a>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <center>
+                     <h1>CK</h1>
+                    Email : 
+                    <input type="text"> <br> <br>
+                    Password : 
+                    <input type="password">
+                  </center>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Log In</button>
+                    <button type="button" class="btn btn-danger">Forgot Password</button>
+                    <a href="profile_form.html" type="button" class="btn btn-warning">Not a member?</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="container-fluid">
+            <a id="nav22" class="nav-link" href="profile_form.html">Create a Profile</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container" >
+    <center>
+      <h1>Create your Profile</h1> <br>
+      <h3>ALL FIELDS ARE REQUIRED</h3> <br>
+    </center>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <!-- One of three columns -->
+        </div>
+        <div class="col-sm">
+          <!-- One of three columns -->
+          <label for="inputname">FIRST NAME</label>
+          <input type="text" class="form-control" placeholder="First Name"> <br>
+          <label for="inputname">YOUR EMAIL</label>
+          <input type="text" class="form-control" placeholder="Your Email"> <br>
+          <label for="inputname">CREATE PASSWORD</label>
+          <input type="text" class="form-control" placeholder="Create Password"> <br>
+
+          <label for="inputname">GENDER</label>
+          <!-- <input type="text" class="form-control" placeholder="Gender"> -->
+
+
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              GENDER
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Male</a></li>
+              <li><a class="dropdown-item" href="#">Female</a></li>
+              <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+            </ul>
+          </div> <br>
+
+          <label for="inputname">CONTACT NUMBER</label>
+          <input type="text" class="form-control" placeholder="Contact Number"> <br>
+
+          <label for="inputname">CITY</label>
+          <input type="text" class="form-control" placeholder="City"> <br>
+
+          <label for="inputname">STATE</label>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              States
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Madhya Pradesh</a></li>
+              <li><a class="dropdown-item" href="#">Rajasthan</a></li>
+              <li><a class="dropdown-item" href="#">West Bengal</a></li>
+              <li><a class="dropdown-item" href="#">Maharashtra</a></li>
+              <li><a class="dropdown-item" href="#">Gujarat</a></li>
+              <li><a class="dropdown-item" href="#">Karnataka</a></li>
+              <li><a class="dropdown-item" href="#">Telangana</a></li>
+              <li><a class="dropdown-item" href="#">Andhra Pradesh</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div> <br>
+
+
+        </div>
+
+        <div class="col-sm">
+          <!-- One of three columns -->
+        </div>
+
+        <div class="col-sm">
+          <!-- One of three columns -->
+          <label for="inputname">LAST NAME</label>
+          <input type="text" class="form-control" placeholder="Last Name"> <br>
+
+          <label for="inputname">CONFIRM EMAIL</label>
+          <input type="text" class="form-control" placeholder="Confirm Email"> <br>
+
+          <label for="inputname">EMPLOYER</label>
+          <input type="text" class="form-control" placeholder="Employer"> <br>
+
+          <label for="inputname">PREFERRED PHONE</label>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              PREFERRED PHONE
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Home</a></li>
+              <li><a class="dropdown-item" href="#">Mobile</a></li>
+              <li><a class="dropdown-item" href="#">Work</a></li>
+            </ul>
+          </div> <br>
+
+          <label for="inputname">ADDRESS</label>
+          <input type="text" class="form-control" placeholder="Address"> <br>
+          <label for="inputname">ZIP CODE</label>
+          <input type="text" class="form-control" placeholder="Zip Code"> <br>
+
+          <label for="inputname">HOW DID YOU HEAR?</label>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              HOW DID YOU HEAR?
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Employer Benefits Portal</a></li>
+              <li><a class="dropdown-item" href="#">Online Friend/Personal Referral</a></li>
+              <li><a class="dropdown-item" href="#">Health Fair/Health Plan</a></li>
+              <li><a class="dropdown-item" href="#">Insurance Company</a></li>
+              <li><a class="dropdown-item" href="#">HR/Benefits Team</a></li>
+              <li><a class="dropdown-item" href="#">Onsite Clinic</a></li>
+              <li><a class="dropdown-item" href="#">Letter/Postcard</a></li>
+              <li><a class="dropdown-item" href="#">Email/Other mailing</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+<br>
+        </div>
+        <div class="col-sm">
+          <!-- One of three columns -->
+        </div>
+      </div>
+        <div class="group">
+          <input type="checkbox" id="xd" />
+          <label for="xd">I would like to receive commercial emails from name.com about other
+            services and products that it offers.</label> <br>
+        </div>
+        <div class="group">
+          <input type="checkbox" id="figma" />
+          <label for="figma" >I agree to Terms And Conditions</label>
+        </div>
+      <div class="col-md-12" style="text-align: center; margin-top: 20px;">
+        <button type="button" class="btn btn-info btn-lg">Submit</button>
+      </div>
+      <br>
+    </div>
+    </div>
+  </div>
+  <!-- <footer> -->
+    <footer class="bg-dark text-white ">
+      <div clas="container text-center text-md-left" id="fam">
+        <div class="row text-center text-md-left">
+      <div class="col-md-2 col-lg-3 col-xl-2 mx-auto mt-3">
+        <h5  class="text-uppercase mb-4 " id="run">CK</h5>
+      </div>
+      <div class="col-md-3 col-lg-1 col-xl-2 mx-auto mt-2" >
+        <p>
+          <a href="learn more.html" class="text-white" style="text-decoration: none;">Learn More </a>
+        </p>
+       
+        <p>
+          <a href="contact.html" class="text-white" style="text-decoration: none;">Contact us</a>
+        </p>
+        <p>
+          <a href="#" class="text-white" style="text-decoration: none;">Careers  </a>
+        </p>
+        <p>
+          <a href="About Parix Health.html" class="text-white" style="text-decoration: none;">About Me</a>
+        </p>
+      </div>
+      <div class="col-md3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <p>
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+      
+            <a href="https://www.facebook.com/" class="btn-floating btn-sm text-white" style="font-size: 45px;"><i class ="fab fa-facebook"></i></a>
+          </li>
+          <li class="list-inline-item">
+      
+            <a href="https://www.twitter.com/" class="btn-floating btn-sm text-white" style="font-size: 45px;"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="list-inline-item">
+      
+            <a href="https://www.linkedin.com/" class="btn-floating btn-sm text-white" style="font-size: 45px;"><i class ="fab fa-linkedin"></i></a>
+          </li>
+          <li class="list-inline-item">
+      
+            <a href="https://www.instagram.com/" class="btn-floating btn-sm text-white" style="font-size: 45px;"><i class ="fab fa-instagram"></i></a>
+          </li>
+          <li class="list-inline-item">
+      
+            <a href="https://www.youtube.com/" class="btn-floating btn-sm text-white" style="font-size: 45px;"><i class ="fab fa-youtube"></i></a>
+          </li>
+          </ul>
+        </p>
+       </div>
+        <hr class="mb-4">
+      <div class="col-md-z col-lg-">
+        <p>
+          <a href="privacypolicy.html" class="text-white" style="text-decoration: none;"> Privacy Policy</a>
+          &nbsp;&nbsp;
+          <a href="privacypolicy.html" class="text-white" style="text-decoration: none;"> Terms and Conditions</a>
+          &nbsp;&nbsp;
+          <a href="feeback.html" class="text-white" style="text-decoration: none;"> Feedback</a>
+        </p>
+      </div>
+      </div>
+      </div>
+      </div>
+      </footer>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
